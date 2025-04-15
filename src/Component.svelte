@@ -58,7 +58,7 @@
       const stream = await navigator.mediaDevices.getUserMedia({
         video: true,
       });
-      const track = stream.getVideoTracks()[1];
+      const track = stream.getVideoTracks()[2];
       imageCapture = new ImageCapture(track);
 
       videoSource.srcObject = stream;
